@@ -1,6 +1,6 @@
 {
   "name": "ddjk-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ddjk工具库",
   "files": [
     "dist",
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/pengzitong/ddjk-utils#readme",
   "devDependencies": {
+    "@types/js-md5": "^0.7.0",
     "rollup": "^3.23.0",
     "rollup-plugin-cleaner": "^1.0.0",
     "rollup-plugin-clear": "^2.0.7",
@@ -34,5 +35,8 @@
     "rollup-plugin-typescript": "^1.0.1",
     "tslib": "^2.5.3",
     "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "js-md5": "^0.7.3"
   }
 }
