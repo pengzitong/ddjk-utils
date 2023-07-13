@@ -40,7 +40,7 @@ const esBuild = [...entries, 'src/index.ts'].map(inputPath => ({
             targets: [outputDir]
         })
     ],
-    // external: ['js-md5']
+    external: ['js-md5']
 }))
 
 

@@ -33,7 +33,7 @@ export const sortStringByASCII = (str: string, asc: boolean = true): string =>{
  * @param timestamp
  * @param salt
  */
-export const generateSignature  = (ticket: string, timestamp: number, salt: string) => {
+export const generateSignature = (ticket: string, timestamp: number, salt: string): string => {
     const mix = `${ticket}${timestamp}`
     const sortedStr = sortStringByASCII(mix)
     const sign = md5(sortedStr + salt)
